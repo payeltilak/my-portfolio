@@ -6,7 +6,8 @@ import About from './Portfolio/About';
 import Contact from './Portfolio/Contact';
 import Services from './Portfolio/Services';
 import Projects from './Portfolio/Projects';
-import Resume from './Portfolio/Resume';
+import Portfolio from './Portfolio/Portfolio';
+
 import Footer from './Portfolio/Shared/Footer';
 import Navbar from './Portfolio/Shared/Navbar';
 
@@ -21,7 +22,8 @@ function App() {
         <Route path="/contact" element={<Contact />} ></Route>
         <Route path="/services" element={<Services />} ></Route>
         <Route path="/projects" element={<Projects />} ></Route>
-        <Route path="/resume" element={<Resume />} ></Route>
+        <Route path="/portfolio" element={<Portfolio />} ></Route>
+         
       </Routes>
       <Footer></Footer>
     </div>

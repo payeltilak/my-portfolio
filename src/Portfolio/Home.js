@@ -1,18 +1,17 @@
 import React from 'react';
+import About from './About';
+import Banner from './Banner';
+
+import './Home.CSS';
+import Projects from './Projects';
 
 const Home = () => {
     return (
-        <div className='home-container'>
-            <div className='home-parent'>
-            <div className='home-details'>
-            <div className='cols'>
-                        <a href="#">
-                            
-             </a>
-         </div>
+        <div>
+            <Banner></Banner>
+            <About></About>
+            <Projects></Projects>
         </div>
-     </div>
-    </div>
     );
 };
 
