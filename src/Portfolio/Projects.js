@@ -3,7 +3,7 @@ import Card from './Card/Card';
 
 const Projects = () => {
     return (
-        <div>
+        <div id='projects'>
             <Card></Card>
         </div>
     );

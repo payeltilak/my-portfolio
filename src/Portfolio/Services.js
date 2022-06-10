@@ -5,7 +5,7 @@ import pic_2 from '../Image/Pic-2.webp';
 
 const Services = () => {
     return (
-        <div className='row my-20'>
+        <div id='services' className='row my-20'>
             <h2 className='text-center text-4xl font-bold p-5'>My Services</h2>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 <div class="card w-96 bg-stone-900 shadow-2xl ">

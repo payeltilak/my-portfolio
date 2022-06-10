@@ -15,7 +15,7 @@ const Contact = () => {
             });
     };
     return (
-        <div className='container border'>
+        <div id='contact' className='container border'>
             <div style={{
                 backgroundImage: `url("https://www.collab2.co.za/wp-content/uploads/2017/06/contact-us-background.jpg")`
             }}>
