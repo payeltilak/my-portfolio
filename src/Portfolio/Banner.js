@@ -4,6 +4,8 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
 import { Instagram, LinkedIn } from '@material-ui/icons';
 // import Particle from './Practicle';
+// import Typewriter from 'react-simple-typewriter';
+
 
 const Banner = () => {
     return (
@@ -12,7 +14,18 @@ const Banner = () => {
                 <Particle />
             </div> */}
             <div className="typography">
-                <h1 className='font-bold text-3xl'>Hi, I'm <span>Payel Tilak</span></h1>
+                <h1 style={{ padding: '3rem', margin: 'auto 0' }} className='font-bold text-3xl'>Hi, I'm <span style={{ color: 'red', fontWeight: 'bold', marginleft: '10px' }}>Payel Tilak</span></h1>
+                {/* <Typewriter>
+                    loop
+                    cursor
+                    cursorStyle="_"
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                    words={['Front-End Developer','Designer','MERN Stack Developer']}
+
+                </Typewriter> */}
+
                 <p className='font-bold text-1xl'>
                     I am a Front-End Web Developer
                 </p>

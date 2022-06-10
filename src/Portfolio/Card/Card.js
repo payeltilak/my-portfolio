@@ -8,7 +8,7 @@ import convention from '../../Image/screencapture-gracious-brown-4aa738-netlify-
 const Card = () => {
     return (
         <div>
-            <h2 className='font-bold text-4xl text-center py-5 text-white '>My Projects</h2>
+            <h2 className='font-bold text-4xl text-center py-5 text-black'>My Projects</h2>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 '>
                 <div className='transition-opacity '>
                     <div class="card w-96 bg-base-100 shadow-xl bg-slate-900 ">
