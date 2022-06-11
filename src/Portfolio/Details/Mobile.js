@@ -4,9 +4,9 @@ const Mobile = () => {
     return (
         <div>
             <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="" alt="Shoes" /></figure>
-                <figure><img src="" alt="Shoes" /></figure>
-                <figure><img src="" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/ynjL2yd/Screenshot-2022-06-11-014553.png" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/b5HGcz8/Screenshot-2022-06-11-014619.png" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/vVCX5yh/Screenshot-2022-06-11-014653.png" alt="Shoes" /></figure>
                 <div class="card-body">
                     <h2 class="card-title font-bold text-3xl">MOBILE SHOP</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>

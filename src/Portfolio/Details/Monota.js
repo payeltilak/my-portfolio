@@ -4,9 +4,9 @@ const Monota = () => {
     return (
         <div>
             <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="" alt="Shoes" /></figure>
-                <figure><img src="" alt="Shoes" /></figure>
-                <figure><img src="" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/X4f1tnf/Screenshot-2022-06-11-013605.png" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/X4f1tnf/Screenshot-2022-06-11-013605.png" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/BLH5L16/Screenshot-2022-06-11-013812.png" alt="Shoes" /></figure>
                 <div class="card-body">
                     <h2 class="card-title font-bold text-3xl">MONOTA</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>

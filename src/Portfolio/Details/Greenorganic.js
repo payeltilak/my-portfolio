@@ -4,9 +4,9 @@ const Greenorganic = () => {
     return (
         <div>
             <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="" alt="Shoes" /></figure>
-                <figure><img src="" alt="Shoes" /></figure>
-                <figure><img src="" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/sP7bNWX/Screenshot-2022-06-11-014034.png" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/B4sqLwB/Screenshot-2022-06-11-014136.png" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/Mkw6c0M/Screenshot-2022-06-11-014207.png" alt="Shoes" /></figure>
                 <div class="card-body">
                     <h2 class="card-title font-bold text-3xl">MOBILE SHOP</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>

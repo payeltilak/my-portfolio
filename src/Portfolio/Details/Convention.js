@@ -4,9 +4,9 @@ const Convention = () => {
     return (
         <div>
             <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="" alt="Shoes" /></figure>
-                <figure><img src="" alt="Shoes" /></figure>
-                <figure><img src="" alt="Shoes" /></figure>
+                <figure><img src="https: //i.ibb.co/KhjtmJn/Screenshot-2022-06-11-014728.png" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/BjZn51T/Screenshot-2022-06-11-014745.png" alt="Shoes" /></figure>
+                <figure><img src="https://i.ibb.co/RGFGCLz/Screenshot-2022-06-11-014757.png" alt="Shoes" /></figure>
                 <div class="card-body">
                     <h2 class="card-title font-bold text-3xl">CONVENTION CENTER</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
