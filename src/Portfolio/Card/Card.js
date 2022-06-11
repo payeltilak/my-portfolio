@@ -26,8 +26,8 @@ const Card = () => {
                             <div class="card-actions justify-end">
                                 <a href='https://github.com/payeltilak/monota-website' class="btn btn-black">Github</a>
                                 <a href='https://monota-cd720.web.app/' target='_blank' class="btn btn-primary">Live Site</a>
-                               
-                                <Link className='btn btn-secondary font-bold mt-4' to={"/monota"}>Detail</Link>
+                                <Link className='btn btn-black font-bold' to="/monota" class="btn btn-black">Details</Link>
+                                {/* <Link className='btn btn-secondary font-bold mt-4' to={"/monota"}>Detail</Link> */}
                             </div>
                         </div>
                     </div>
@@ -38,12 +38,16 @@ const Card = () => {
                     ' src={laptop} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title text-white">Laptop</h2>
-                        <p className='text-white'>Is has uses react.js and javascript. It is responsive for Desktop and mobile. Is has many reviews for new laptop</p>
+                        <p className='text-white'>Product Analysis based website ,Dashboard containing Graph.In home page ,there are 3 reviews,but All reviews shown on another page. <br />
+                            Used Technology :HTML,CSS,Bootstrap,React router
+
+                        </p>
+                       
                         <div class="card-actions justify-end">
                             <a href='https://github.com/payeltilak/laptop-shop' class="btn btn-black">Github</a>
                             <a href="https://endearing-toffee-c817a5.netlify.app/home target='_blank' class=" target='_blank' className='btn btn-primary'>Live Site</a>
 
-                            <button class="btn btn-black">Details</button>
+                            <Link className='btn btn-black font-bold' to="/laptop" class="btn btn-black">Details</Link>
                         </div>
                     </div>
                 </div>
@@ -60,7 +64,7 @@ const Card = () => {
                             <a href='https://github.com/payeltilak/greenorganic-website' class="btn btn-black">Github</a>
                             <a href='https://greenorganic-fruits-vegitable.web.app/' target='_blank' class="btn btn-primary">Live Site</a>
 
-                            <button class="btn btn-black">Details</button>
+                            <Link className='btn btn-black font-bold' to="/greenorganic" class="btn btn-black">Details</Link>
                         </div>
                     </div>
                 </div>
@@ -74,7 +78,7 @@ const Card = () => {
                             <a href='https://github.com/payeltilak/phone-hunter-website' class="btn btn-black">Github</a>
                             <a href='https://hungry-edison-e37251.netlify.app/' target='_blank' class="btn btn-primary">Live Site</a>
 
-                            <button class="btn btn-black">Details</button>
+                            <Link className='btn btn-black font-bold' to="/mobile" class="btn btn-black">Details</Link>
                         </div>
                     </div>
                 </div>
@@ -88,7 +92,7 @@ const Card = () => {
                             <a href='https://github.com/payeltilak/convention-center-website' class="btn btn-black">Github</a>
                             <a href='https://gracious-brown-4aa738.netlify.app/' target='_blank' class="btn btn-primary">Live Site</a>
 
-                            <button class="btn btn-black">Details</button>
+                            <Link className='btn btn-black font-bold' to="/convention" class="btn btn-black">Details</Link>
                         </div>
                     </div>
                 </div>
