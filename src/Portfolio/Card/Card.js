@@ -27,7 +27,7 @@ const Card = () => {
                                 <a href='https://github.com/payeltilak/monota-website' class="btn btn-black">Github</a>
                                 <a href='https://monota-cd720.web.app/' target='_blank' class="btn btn-primary">Live Site</a>
                                
-                                <Link to={`/monota`}><button className='btn btn-secondary font-bold mt-4'>Detail</button></Link>
+                                <Link className='btn btn-secondary font-bold mt-4' to={"/monota"}>Detail</Link>
                             </div>
                         </div>
                     </div>
