@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from "react-scroll";
 
+
 const Navbar = () => {
     const menuItems = <>
-        <li><Link activeClass="active" className='' to="home">Home</Link></li>
+        {/* <li><Link activeClass="active" className='' to="home">Home</Link></li>
 
         <li><Link spy={true} smooth={true} to="about">About</Link></li>
 
@@ -11,7 +12,8 @@ const Navbar = () => {
 
         <li><Link spy={true} smooth={true} to="projects"><a href="#projects">Projects</a></Link></li>
 
-        <li><Link spy={true} smooth={true}  to="contact">Contact</Link></li>
+        <li><Link spy={true} smooth={true} to="contact">Contact</Link></li>
+        <li><Link to="/blog">Blog</Link></li>     */}
     </>
     return (
         <div class="navbar bg-stone-900">

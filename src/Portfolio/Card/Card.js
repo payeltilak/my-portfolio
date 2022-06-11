@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import monota from '.././../Image/screencapture-monota-cd720-web-app-2022-06-10-14_18_38.png'
 import greenorganic from '../../Image/screencapture-greenorganic-fruits-vegitable-web-app-2022-06-10-14_16_24.png';
 import laptop from '../../Image/screencapture-endearing-toffee-c817a5-netlify-app-home-2022-06-10-13_07_21.png'
 import mobile from '../../Image/screencapture-hungry-edison-e37251-netlify-app-2022-06-10-13_08_27.png'
 import convention from '../../Image/screencapture-gracious-brown-4aa738-netlify-app-2022-06-10-13_10_35.png';
+
 
 const Card = () => {
     return (
@@ -26,7 +28,7 @@ const Card = () => {
 https://github.com/payeltilak/monota-website' class="btn btn-black">Github</a>
                                 <a href='https://monota-cd720.web.app/' target='_blank' class="btn btn-primary">Live Site</a>
                                
-                                <button class="btn btn-black">Details</button>
+                                <Link to={`/monota`}><button className='btn btn-secondary font-bold mt-4'>Detail</button></Link>
                             </div>
                         </div>
                     </div>

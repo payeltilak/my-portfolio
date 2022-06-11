@@ -3,32 +3,39 @@ import styled from 'styled-components';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
 import { Instagram, LinkedIn } from '@material-ui/icons';
+import TypeWriterEffect from 'react-typewriter-effect';
+const myRef = document.querySelector('.scrollable-div')
 // import Particle from './Practicle';
 // import Typewriter from 'react-simple-typewriter';
 
 
 const Banner = () => {
     return (
-        <HomePageStyled>
+        <HomePageStyled >
             {/* <div className="particle-con">
                 <Particle />
             </div> */}
-            <div className="typography">
+            <div className="typography text-white">
                 <h1 style={{ padding: '3rem', margin: 'auto 0' }} className='font-bold text-3xl'>Hi, I'm <span style={{ color: 'red', fontWeight: 'bold', marginleft: '10px' }}>Payel Tilak</span></h1>
-                {/* <Typewriter>
-                    loop
-                    cursor
-                    cursorStyle="_"
-                    typeSpeed={70}
-                    deleteSpeed={50}
-                    delaySpeed={1000}
-                    words={['Front-End Developer','Designer','MERN Stack Developer']}
-
-                </Typewriter> */}
-
-                <p className='font-bold text-1xl'>
-                    I am a Front-End Web Developer
-                </p>
+                <div className='w-max mx-auto font-bold'>
+                    <TypeWriterEffect
+                        textStyle={{
+                            fontFamily: 'Red Hat Display',
+                            color: '#ffffff',
+                            fontWeight: 500,
+                            fontSize: '1.5em',
+                        }}
+                        startDelay={2000}
+                        cursorColor="#3F3D56"
+                        multiText={[
+                            'I am a Front-End Web Developer',
+                            'I am a Designer'
+                        ]}
+                        multiTextDelay={1000}
+                        typeSpeed={30}
+                    />
+                   </div>
+                
                 <div className="icons">
                     <a href="https://www.facebook.com/hrituraz.banik" target="_blank" className="icon i-facebook">
                         <FacebookIcon />
@@ -48,6 +55,10 @@ const Banner = () => {
     );
 };
 const HomePageStyled = styled.header`
+background: black;
+padding-bottom: 100px;
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 90%);
+clip-path: polygon(0 0, 80% 0%, 100% 0, 100% 100%, 61% 79%, 24% 93%, 0 80%, 0% 20%);
     width: 100%;
     height: 100vh;
     position: relative;

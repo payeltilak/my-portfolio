@@ -7,9 +7,10 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('gmail', 'template_zsq5wkw', form.current, 'wSTHbBAWTrfQ4mTcr')
             .then((result) => {
                 console.log(result.text);
+                console.log("message Successfully");
             }, (error) => {
                 console.log(error.text);
             });
@@ -21,7 +22,7 @@ const Contact = () => {
             }}>
                 <h1 className='text-5xl text-center font-bold my-2 text-white'>Contact</h1>
                 <div class="w-full max-w-xs mx-auto">
-                    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                    <form onSubmit={sendEmail} ref={form} class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                         <div class="mb-4">
                             <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
                                 Username
@@ -51,7 +52,7 @@ const Contact = () => {
 
                 </div>
             </div>
-            );
+            
         </div>
     );
 };
