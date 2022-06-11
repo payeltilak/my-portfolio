@@ -14,6 +14,12 @@ const Navbar = () => {
 
         <li><Link spy={true} smooth={true} to="contact">Contact</Link></li>
         <li><Link to="/blog">Blog</Link></li>     */}
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
+        <li><a href={'#projects'}>Project</a></li>
+        <li><a href={'#services'}>Services</a></li>
+        <li><a href={'#about'}>About</a></li>
+        <li><a href={'#contact'}>Contact</a></li>
     </>
     return (
         <div class="navbar bg-stone-900">

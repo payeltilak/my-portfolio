@@ -24,8 +24,7 @@ const Card = () => {
 
                             </p>
                             <div class="card-actions justify-end">
-                                <a href='
-https://github.com/payeltilak/monota-website' class="btn btn-black">Github</a>
+                                <a href='https://github.com/payeltilak/monota-website' class="btn btn-black">Github</a>
                                 <a href='https://monota-cd720.web.app/' target='_blank' class="btn btn-primary">Live Site</a>
                                
                                 <Link to={`/monota`}><button className='btn btn-secondary font-bold mt-4'>Detail</button></Link>
@@ -56,7 +55,7 @@ https://github.com/payeltilak/monota-website' class="btn btn-black">Github</a>
                         <p className='text-white'>Fruits & Vegetables sales based website.
                             One can get Contact with the warehouse virtually.
                             It is an admin base project &.an admin can add product & delete product.
-</p>
+                             </p>
                         <div class="card-actions justify-end">
                             <a href='https://github.com/payeltilak/greenorganic-website' class="btn btn-black">Github</a>
                             <a href='https://greenorganic-fruits-vegitable.web.app/' target='_blank' class="btn btn-primary">Live Site</a>
